@@ -1,0 +1,10 @@
+.lesson-1{
+    display: flex;
+    gap: 20px;
+}
+input{
+    padding: 20px;
+}
+button{
+   padding: 20px;
+}
