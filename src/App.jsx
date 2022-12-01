@@ -1,10 +1,14 @@
 import './App.css';
-import Lessons from "./Lessons";
+import LessonsFunctionComponent from "./Lessons-Funkcion-Component";
+import LessonsFunctionComponent2 from "./Lessons-function-component-2";
+
+
 
 function App() {
   return (
     <div className="App">
-       <Lessons/>
+       {/*<LessonsFunctionComponent/>*/}
+       <LessonsFunctionComponent2/>
     </div>
   );
 }

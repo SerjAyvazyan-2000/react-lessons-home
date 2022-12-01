@@ -14,11 +14,11 @@ class Lessons extends React.Component{
                 {/*<Lesson1/>*/}
                 {/*<Lesson2/>*/}
                 {/*<Lesson3/>*/}
-                <p>LESSONS HOM</p>
-                <Lesson1/>
-                <Lessons2/>
-                <Lesson3/>
-                <Lesson4/>
+                {/*<p>LESSONS HOM</p>*/}
+                {/*<Lesson1/>*/}
+                {/*<Lessons2/>*/}
+                {/*<Lesson3/>*/}
+                {/*<Lesson4/>*/}
 
 
         </div>

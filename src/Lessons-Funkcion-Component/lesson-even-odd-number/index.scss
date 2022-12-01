@@ -1,0 +1,35 @@
+.even-odd-box{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.even-odd-boxes{
+  display: flex;
+  width: 50%;
+
+}
+.numbers-box{
+  border: 1px solid red;
+ width: 50%;
+
+  h2{
+     text-align: center;
+     color: #76cb76;
+  }
+  p{
+    color: gold;
+    font-size: 20px;
+  }
+}
+.numbers-box {
+  counter-reset: section;
+}
+
+p::before {
+  counter-increment: section;
+  content: " " counter(section) ". ";
+  color: black;
+  font-size: 30px;
+}

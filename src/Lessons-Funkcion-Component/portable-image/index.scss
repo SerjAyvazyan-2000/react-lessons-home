@@ -1,0 +1,14 @@
+.P-portabloe-img{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.P-image-block{
+  width: 100%;
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
