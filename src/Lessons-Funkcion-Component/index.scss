@@ -1,0 +1,26 @@
+ body{
+   background-color: #454343;
+ }
+
+h1{
+
+  color: gold;
+}
+input{
+   padding: 20px;
+  font-size: 20px;
+}
+
+button{
+   padding: 20px;
+   border: none;
+  background-color: red;
+  transition: .3s;
+  font-size: 20px;
+  cursor: pointer;
+
+  &:hover{
+     background-color: blue;
+    transition: .3s;
+  }
+}

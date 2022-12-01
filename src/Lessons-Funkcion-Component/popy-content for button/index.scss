@@ -1,0 +1,36 @@
+.p-popy-content{
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:60px;
+}
+.p-menyu-list{
+
+  ul{
+    display: flex;
+
+
+    li{
+      list-style: none;
+      color: red;
+      margin: 20px;
+      background-color: gold;
+      font-size: 25px;
+      cursor: pointer;
+      transition: .4s;
+      padding: 10px;
+   &:hover,&.active{
+      background-color: green;
+     transition: .4s;
+   }
+    }
+  }
+}
+.cars-informacion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}

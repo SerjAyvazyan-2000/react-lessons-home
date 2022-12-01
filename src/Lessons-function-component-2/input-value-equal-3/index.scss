@@ -1,0 +1,18 @@
+.p-equal-input{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.equal-tools{
+
+  .gren{
+      border: 4px solid green;
+    color: green;
+  }
+  .red{
+     border: 4px solid red;
+    color: red;
+  }
+}
