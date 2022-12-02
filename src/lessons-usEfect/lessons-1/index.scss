@@ -1,0 +1,35 @@
+.P-modifier-color{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.modifer-tools{
+
+  ul{
+     display: flex;
+
+    li{
+       list-style: none;
+       cursor: pointer;
+      background-color: gold;
+      padding: 15px;
+      margin: 20px;
+       color: red;
+      font-size: 30px;
+    }
+  }
+
+}
+.result-modifier{
+   width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-content{
+   width: 300px;
+  height: 300px;
+}
