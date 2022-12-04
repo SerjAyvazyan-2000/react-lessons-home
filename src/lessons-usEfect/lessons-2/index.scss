@@ -1,0 +1,11 @@
+.P-render-boxes{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.p-boxes-block{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}

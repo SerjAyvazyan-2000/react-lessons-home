@@ -1,14 +1,25 @@
+@import "src/assets/style/normalize";
+.Function-Component-Lessons{
+
+  h2{
+    text-align: center;
+    font-size: 50px;
+    color: #00A3FF;
+  }
+
+}
+
  body{
    background-color: #454343;
  }
 
 h1{
-
   color: gold;
 }
 input{
    padding: 20px;
   font-size: 20px;
+
 }
 
 button{

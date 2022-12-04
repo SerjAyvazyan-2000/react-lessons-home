@@ -12,6 +12,7 @@ import SelectInput from "./select-input";
 const LessonsFunctionComponent = () => {
 
     return <div className="Function-Component-Lessons">
+        <h2>Function-Component-Lessons</h2>
        <LessonAddName/>
        <EvenOddNumber/>
        <PortableImage/>
