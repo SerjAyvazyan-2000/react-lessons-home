@@ -8,6 +8,7 @@ import Couplecolor from "./input-old-couple-number-4";
 const LessonsFunctionComponent2 = () => {
 
     return <div className="lessons-seria-2">
+        <h2>Lessons Function Component Day 2</h2>
           <NameOpen/>
           <FontSize/>
           <EqualInput/>

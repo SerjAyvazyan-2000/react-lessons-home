@@ -8,6 +8,7 @@ import InputValidacion from "./lessons-4";
 const LessonUsEfect = () => {
 
      return <div className="P-useEfect">
+          <h1>Lesson UseFect</h1>
           <ModifierColor/>
           <ReanderBoxes/>
           <NumberImage/>

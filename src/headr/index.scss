@@ -9,26 +9,29 @@
     padding: 10px;
   }
 }
-.my-lessons{
+.Components-lessons{
 
   ul{
     display: flex;
-
+    flex-wrap: wrap;
     li{
-       list-style: none;
-      padding: 20px;
-      margin: 20px;
-       background-color: #cbb71c;
-      cursor: pointer;
-      border-radius: 20px;
-      font-size: 25px;
+      list-style: none;
       transition: .4s;
+      padding: 20px;
 
-      &:hover,active {
-        background-color: green;
-        transition: .4s;
+      a{
+        padding: 20px;
+        margin: 20px;
+        cursor: pointer;
+        border-radius: 20px;
+        font-size: 25px;
+        background-color: gold;
+        text-decoration: none;
+
+        &.active{
+          background-color: #76cb76;
+        }
       }
-
     }
   }
 }

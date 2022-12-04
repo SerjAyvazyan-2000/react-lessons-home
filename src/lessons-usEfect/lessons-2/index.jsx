@@ -32,7 +32,7 @@ const ReanderBoxes = () => {
                  {info:img4,id:5},
                  {info:img5,id:6}
              ])
-         },3000)
+         },5000)
     },[])
 
  // useEffect(() =>{
@@ -55,3 +55,7 @@ const ReanderBoxes = () => {
     </div>
 }
 export default ReanderBoxes
+
+// React.useEffect(()=>{
+//    1 angam renderi vaxt
+// })
