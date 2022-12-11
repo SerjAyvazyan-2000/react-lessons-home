@@ -9,7 +9,7 @@ const LessonUsEfect = () => {
 
      return <div className="P-useEfect">
           <h1>Lesson UseFect</h1>
-          <ModifierColor/>
+           <ModifierColor/>
           <ReanderBoxes/>
           <NumberImage/>
           <InputValidacion/>

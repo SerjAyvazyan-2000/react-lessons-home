@@ -9,25 +9,28 @@ const Headr = () => {
         <div className="Components-lessons">
       <ul>
         <li >
-            <NavLink  to={"/Lessons-Function-Component"}>Lessons Function Component</NavLink>
+            <NavLink  to={"/Lessons-Function-Component"}> Function Component</NavLink>
         </li>
         <li>
-            <NavLink to={"/Lessons-Function-Component-Dey-2"}>Lessons Function Component Dey 2</NavLink>
+            <NavLink to={"/Lessons-Function-Component-Dey-2"}> Function Component Dey 2</NavLink>
         </li>
         <li>
-            <NavLink to={"/Lessons-UsEffect"}>Lessons UsEffect</NavLink>
+            <NavLink to={"/Lessons-UsEffect"}> UsEffect</NavLink>
         </li>
 
         <li>
-            <NavLink to={"/Lessons-UseRef"}>Lessons UsEffect</NavLink>
-        </li>
-        <li>
-            <NavLink to={"/Lessons-UseRef"}>Lessons UseRef</NavLink>
+            <NavLink to={"/Lessons-UseRef"}> UseRef</NavLink>
         </li>
           <li>
               <NavLink to={"/add-boxes"}>Add Boxes</NavLink>
           </li>
-  </ul>
+          <li>
+              <NavLink to={"/redux"}>Redux</NavLink>
+          </li>
+          <li>
+              <NavLink to={"/login"}>Login</NavLink>
+          </li>
+      </ul>
         </div>
     </div>
 

@@ -5,7 +5,7 @@ import car1 from "../../assets/image/3.jpeg"
 import car2 from "../../assets/image/4.jpeg"
 
 import Components from "./components";
-import {bachgroundColor} from "../../components/utils";
+import {bachgroundColor} from "../../assets/utils";
 
 
 const ModifierColor = () => {

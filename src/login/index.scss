@@ -1,0 +1,49 @@
+.login-section{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #383942;
+}
+.block-name{
+   h1{
+  text-align: center;
+     color: #5ce55c;
+     font-size: 40px;
+   }
+}
+.p-login-block{
+  background-color: #474444;
+  width: 40%;
+
+
+  button{
+    width: 50%;
+    background-color: #5a805a;
+    padding: 0;
+    height: 70px;
+
+    &:hover{
+       background-color: #5ce55c;
+    }
+  }
+}
+.login-block-tools{
+
+
+
+  h2{
+     font-size: 30px;
+    color: green;
+  }
+
+  input{
+     margin-top: 0;
+    padding: 0;
+    width: 80%;
+    border: 2px solid aqua;
+    height: 70px;
+    font-size: 30px;
+  }
+
+}
