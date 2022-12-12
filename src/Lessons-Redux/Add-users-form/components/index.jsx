@@ -1,12 +1,16 @@
-import React from "react";
+import React, {useState} from "react";
 import "./index.scss"
-import {useDispatch} from "react-redux";
+
+import Modal from "./modal-box";
+
 
 const Components = ({item,index}) => {
-    const dispatch = useDispatch()
+    const [openModal , setOpenModal] = useState(false)
 
-    const deleteUseer = (index) =>{
-        dispatch({type:"DELETE_USER",payload:index})
+
+    const handleModal = () =>{
+        setOpenModal(!openModal)
+
     }
 
     return <div className="users-info">
@@ -17,7 +21,8 @@ const Components = ({item,index}) => {
         <h2>Password   <span style={{color:"red",fontSize:"30px"}}>{item.password}</span></h2>
         <h2>ConfilmPassword  <span style={{color:"red",fontSize:"30px"}}>{item.confilmPassword}</span></h2>
         <h2>PhoneNumber  <span style={{color:"red",fontSize:"30px"}}>{item.phoneNumber}</span></h2>
-        <button onClick={()=>deleteUseer(index)}>Delete User</button>
+        <button onClick={handleModal}>Delete User</button>
+        {openModal ? <Modal openClose = {handleModal}  info = {item} index = {index}/> :null}
     </div>
 }
 export default Components

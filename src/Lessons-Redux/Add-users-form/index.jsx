@@ -1,10 +1,14 @@
 import React, {useState} from "react";
 import "./index.scss"
 import {useDispatch, useSelector} from "react-redux";
+import {toast} from "react-toastify"
 import Components from "./components";
+
 
 const AddUsers = () =>{
     const selectorList = useSelector(state => state.AddUsers.usersList)
+
+
 
     const dispatch = useDispatch()
 
@@ -96,9 +100,11 @@ const [userData,setUserData] = useState({
         && !erorString.confilmPassword && !erorString.email
        ){
             dispatch({type:"SET_USER",payload:userData})
+
             setUserData({...userData,firstName: '',lastName: '',phoneNumber: '',
                 confilmPassword: '',email: '',password: ''})
         }
+
     }
     const handleChenge = (e) =>{
         setUserData({...userData,[e.target.name]:e.target.value})

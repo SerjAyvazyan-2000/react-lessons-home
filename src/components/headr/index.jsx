@@ -21,15 +21,14 @@ const Headr = () => {
         <li>
             <NavLink to={"/Lessons-UseRef"}> UseRef</NavLink>
         </li>
-          <li>
-              <NavLink to={"/add-boxes"}>Add Boxes</NavLink>
-          </li>
+
           <li>
               <NavLink to={"/redux"}>Redux</NavLink>
           </li>
           <li>
               <NavLink to={"/login"}>Login</NavLink>
           </li>
+
       </ul>
         </div>
     </div>

@@ -1,11 +1,9 @@
 import React from "react";
 import './App.css';
 import {Route,Routes} from "react-router-dom"
-
 import LessonsFunctionComponent from "./Lessons-Funkcion-Component";
 import LessonsFunctionComponent2 from "./Lessons-function-component-2";
 import LessonsUseRef from "./Lessons-useRef";
-import AddBoxes from "./Lessons-Add-boxes";
 import Headr from "./components/headr";
 import Foter from "./components/fotter";
 import Redux from "./Lessons-Redux";
@@ -13,6 +11,7 @@ import LessonUsEfect from "./lessons-usEfect";
 import Login from "./login";
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect, useState} from "react";
+
 
 
 
@@ -41,8 +40,8 @@ function App() {
     <Route path={"/Lessons-Function-Component-Dey-2"} element={<LessonsFunctionComponent2/>}></Route>
     <Route path={"/Lessons-UsEffect"} element={<LessonUsEfect/>}></Route>
     <Route path={"/Lessons-UseRef"} element={<LessonsUseRef/>}></Route>
-    <Route path={"/add-boxes"} element={<AddBoxes/>}></Route>
     <Route path={"/redux"} element={<Redux/>}></Route>
+
 </Routes>
             :
             <Routes>

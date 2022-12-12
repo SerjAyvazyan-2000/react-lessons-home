@@ -11,13 +11,8 @@ const loginKey = (state = defaultState , action) => {
         }
         case "CHECK_KEY":{
              let newKey = localStorage.getItem("password_Email")
-            if(newKey){
                return  {...state,key: newKey}
-            }else {
-                return {...state,key:''}
-            }
         }
-
         default :{
           return {...state}
         }
